@@ -217,6 +217,10 @@ section .heading{
     width:700px;
     height:300px;
 }
+#Snake{
+    width:700px;
+    height:270px;
+}
 #projets img:hover{
     border:5px solid blue;
 }
