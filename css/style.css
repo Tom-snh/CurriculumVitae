@@ -297,5 +297,81 @@ footer h4{
     text-align:center;
     padding-top:120px;
     font-size:15px;
+}
 
+/*Certifictions*/
+#certificat{
+    margin-top:40px;
+    background:white;
+    text-transform: uppercase;
+}
+#certificat .heading h2{
+    color:rgb(40,60,127);
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.certificat_block{
+    width:80%;
+    height:350px;
+    margin:0 auto;
+    text-align:center;
+    padding:50px;
+    margin-bottom:20px;
+}
+.flip-box p{
+    color:rgb(40,60,127);
+    padding-top:35px;
+    font-size:25px;
+}
+.flip-box h5{
+    color:#888;
+    padding-top:20px;
+}
+.flip-box h3{
+    color:black;
+    padding-top:100px;
+}
+.flip-box a{
+    text-decoration: none;
+    font-size:15px;
+}
+.green_divider{
+    width:150px;
+    height:2px;
+    background:rgb(74, 245, 74);
+    margin:0 auto;
+}
+.flip-box{
+    width:80%;
+    height:350px;
+    border-radius:10px;
+    border:2px solid white;
+    perspective: 500px;
+}
+.flip-box-inner{
+    position:relative;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.flip-box-front{
+    color:black;
+    background-color:white;
+}
+.flip-box-back{
+    color:black;
+    background-color:#ccc;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+.flip-box-front, .flip-box-back{
+    backface-visibility: hidden;
+    position:absolute;
+    width:100%;
+    height: 100%;
+}
+.flip-box:hover .flip-box-inner{
+    transform: rotateY(180deg);
 }
